@@ -1,0 +1,30 @@
+# Genellikle Python Projelerinde Göz Ardı Edilmesi Gerekenler
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Sanal Ortamlar (Çok Önemli!)
+venv/
+env/
+.venv/
+
+# IDE/Editör Dosyaları
+.vscode/ # VS Code ayarları
+*.sublime-workspace
+.idea/ # PyCharm/IntelliJ ayarları
+
+# PyInstaller Çıktıları (Çok Önemli!)
+dist/
+build/
+*.spec
+
+# Jupyter / Geçici Çıktılar
+.ipynb_checkpoints
+
+# İşletim Sistemi Dosyaları
+.DS_Store # Mac
+Thumbs.db # Windows
+
+# Akıllı Asistana Özel Büyük Veri Dosyaları (Çok Önemli!)
+.chroma/ # ChromaDB'nin veriyi depoladığı klasör
